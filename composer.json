@@ -1,0 +1,23 @@
+{
+    "name":        "0x00ten/piwik-client",
+    "type":        "library",
+    "description": "Piwik analytics tiny test client",
+    "license":     "proprietary",
+    "authors": [
+        {
+            "name": "Max",
+            "email": "0x00ten@gmail.com"
+        }
+    ],
+    "require": {
+        "php":  ">=5.3.0",
+        "kriswallsmith/buzz": "*",
+        "phpunit/PHPUnit": "3.7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PiwikClient\\": "src/",
+            "PiwikClientTest\\": "tests/"
+        }
+    }
+}

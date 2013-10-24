@@ -1,0 +1,6 @@
+<?php
+    return array(
+        'apiUrl' => 'http://piwik.org',
+        'apiToken' => 'anonymous',
+    );
+?>
